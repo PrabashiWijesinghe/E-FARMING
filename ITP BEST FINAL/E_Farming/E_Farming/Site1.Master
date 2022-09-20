@@ -1,0 +1,66 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="E_Farming.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+   <title>Purchasing Lanka Internationl</title>
+
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="datatables/css/jquery.dataTables.min.css" rel="stylesheet" />
+    <link href="fontawesom/css/all.css" rel="stylesheet" />
+    <link href="css/custom.css" rel="stylesheet" />
+
+    <script src="bootstrap/js/jquery-3.3.1.slim.min.js"></script>
+    <script src="bootstrap/js/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="datatables/js/jquery.dataTables.min.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+         <div>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+                <a class="navbar-brand" href="#">
+                    <img src="photos/farmlogo.png" width="50" height="50"/>
+                    E-Farming
+                </a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aira-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="FarmHome.aspx" target="_blank">Home</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="Terms.aspx">About us</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="conditions.aspx">Terms & Conditions</a>
+                        </li>
+                         
+                    </ul>
+                  
+                </div>
+
+            </nav>
+        </div>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+         <footer>
+            <div id="footer"><br>
+                <center><p>&copy All Right Reserved by :<br><a class="footerlinks" href="#" target="_blank">
+                Purchasing Lanka International (Pvt) Ltd</a></p></center><br>
+            </div>
+        </footer>
+    </form>
+</body>
+</html>

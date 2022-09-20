@@ -1,0 +1,115 @@
+﻿body {
+    background-image: url('../photos/Background1a.jpg');
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.footerlinks:hover {
+    color: seagreen;
+}
+
+#footer {
+    background: #f2f2f2;
+}
+
+.buttonA {
+    background-color: seagreen;
+    border: none;
+    border-radius: 20px;
+    padding: 14px 40px;
+    font-size: 18px;
+    color: white;
+    margin-top: 30px;
+}
+
+.btn-log {
+    background-color: seagreen;
+}
+
+.title {
+    display: flex;
+    height: 88%;
+    align-items: center;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.col_a {
+    flex-basis: 50%;
+}
+
+h1a {
+    color: #000000;
+    font-size: 30px;
+}
+
+h5a {
+    color: white;
+}
+
+p1 {
+    color: seagreen;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+p1a {
+    color: white;
+    font-size: 15px;
+    line-height: 15px;
+}
+.cardHome {
+    width: 200px;
+    height: 250px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+    .cardHome:hover {
+        transform: translateY(-10px);
+    }
+
+.card1 {
+  
+    background-image: url('../photos/tile1.jpg');
+}
+
+.card2 {
+    
+    background-image: url('../photos/tile2.jpg');
+}
+
+.card3 {
+  
+    background-image: url('../photos/tile3.jpg');
+}
+
+.card4 {
+    
+    background-image: url('../photos/tile4.jpg');
+}
+.blankstar {
+    background-image: url(images/s3.png);
+    width: 16px;
+    height: 16px;
+}
+
+.waitingstar {
+    background-image: url(images/s2.png);
+    width: 16px;
+    height: 16px;
+}
+
+.shiningstar {
+    background-image: url(images/s1.png);
+    width: 16px;
+    height: 16px;
+}
+
